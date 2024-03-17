@@ -20,10 +20,8 @@ const createApi = () =>
       try {
         const response =  await axiosInsance.post("/urls/add", {url: url})
         const responseUrl: IUrl = response.data
-        responseUrl.tinyUrl = responseUrl.tinyUrl;
         return responseUrl
       } catch (error) {
-        console.error("TODO", error);
         throw new Error("failed");
       }
     },

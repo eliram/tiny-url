@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api, endpoint } from "../Api";
+import { api } from "../Api";
 import { IUrl } from "../Api/apiTypes";
 import Table from "../Components/Table";
 

@@ -2,7 +2,6 @@
 
 import jsonfile from 'jsonfile';
 
-import { IUser } from '@src/models/User';
 import { IUrl } from '@src/models/Url';
 
 
@@ -14,7 +13,6 @@ const DB_FILE_NAME = 'database.json';
 // **** Types **** //
 
 interface IDb {
-  users: IUser[];
   urls: IUrl[]
 }
 
